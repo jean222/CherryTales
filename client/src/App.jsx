@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { useRoutes } from 'react-router-dom'
 import './App.css'
 import WelcomePage from './pages/WelcomePage'
+import SignUpPage from './pages/SignUpPage'
 
 function App() {
   //This is how you can go from page to page
@@ -11,6 +12,10 @@ function App() {
     {
       path: '/',
       element: <WelcomePage />  
+    },
+    {
+      path: '/signup',
+      element: <SignUpPage />
     }
   ])
 
