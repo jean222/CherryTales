@@ -5,6 +5,7 @@ import { useRoutes } from 'react-router-dom'
 import './App.css'
 import WelcomePage from './pages/WelcomePage'
 import SignUpPage from './pages/SignUpPage'
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
   //This is how you can go from page to page
@@ -16,6 +17,10 @@ function App() {
     {
       path: '/signup',
       element: <SignUpPage />
+    },
+    {
+      path: '*',
+      element:<NotFoundPage />
     }
   ])
 
