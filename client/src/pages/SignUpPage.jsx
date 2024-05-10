@@ -6,7 +6,9 @@ export default function SignUpPage() {
     <div class='min-h-screen flex flex-col'>
       <div class='container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2'>
         <div class='bg-white px-6 py-8 rounded shadow-md text-black w-full'>
-          <h1 class='bg-white mb-8 text-3xl text-center text-bold'>Create new account</h1>
+        <img class="bg-white mx-auto w-10 py-3" src='https://cdn-icons-png.flaticon.com/512/193/193704.png' alt="image description" />
+
+          <h1 class='bg-white mb-8 text-3xl text-center text-bold'>Create a new account</h1>
           <input
             type="text"
             class="bg-white block border vorder-grey-light w-full p-3 rounded mb-4"
