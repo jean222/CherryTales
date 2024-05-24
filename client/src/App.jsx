@@ -6,6 +6,8 @@ import './App.css'
 import WelcomePage from './pages/WelcomePage'
 import SignUpPage from './pages/SignUpPage'
 import NotFoundPage from './pages/NotFoundPage'
+import ProfilePage from './pages/ProfilePage'
+import HomePage from './pages/HomePage'
 
 function App() {
   //This is how you can go from page to page
@@ -15,8 +17,16 @@ function App() {
       element: <WelcomePage />  
     },
     {
+      path:'/HomePage',
+      element: <HomePage />
+    },
+    {
       path: '/signup',
       element: <SignUpPage />
+    },
+    {
+      path:'/profile',
+      element: <ProfilePage />
     },
     {
       path: '*',
