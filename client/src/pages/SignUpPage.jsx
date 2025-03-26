@@ -56,7 +56,9 @@ export default function SignUpPage() {
           <div class='bg-white px-6 py-8 rounded shadow-md text-black w-full'>
           <img class="bg-white mx-auto w-10 py-3" src='https://cdn-icons-png.flaticon.com/512/193/193704.png' alt="image description" />
 
-          <h1 class='bg-white mb-8 text-3xl text-center text-bold'>Hi {lsName}</h1>
+          {/* <h1 class='bg-white mb-8 text-3xl text-center text-bold'>Hi {lsName}</h1>
+          <input */}
+          <h1 class='bg-white mb-8 text-3xl text-center text-bold'>Hi!</h1>
           <input
               ref = {email}
               type='text'
