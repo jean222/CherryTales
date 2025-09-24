@@ -13,8 +13,8 @@ function App() {
   //This is how you can go from page to page
   let element = useRoutes([
     {
-      path: '/',
-      element: <WelcomePage />  
+      path: '/', // this is the path 
+      element: <WelcomePage />  // This is the the function inside the WelcomePage.jsx
     },
     {
       path:'/HomePage',
