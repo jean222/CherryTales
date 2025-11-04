@@ -12,6 +12,7 @@ export default function WelcomePage() {
 
   return (
     <>
+    {/* Cherry logo on the top left corner of the page */}
     <div class="relative">
       {/* <img class="absolute top-0 left-0 w-20 px-3 py-3" src='https://png.pngtree.com/png-vector/20220806/ourmid/pngtree-cherry-lineart-hand-drawn-png-image_6102020.png' alt="image description" /> */}
       {/* <img class="absolute top-0 left-0 w-20 px-3 py-3" src="https://cdn-icons-png.flaticon.com/512/4416/4416713.png" alt="image description" /> */}
@@ -29,9 +30,9 @@ export default function WelcomePage() {
           <p class="pt-3 text-xl"> The more you read, the more things you will know. The more you learn, the more places you will go.</p>
         </div>
 
-        <div class="flex flex-col md:flex-row  pt-5 space-x-8 ">
+        <div class="flex flex-col md:flex-row pt-5 space-x-8 ">
           <button onClick={() => newPage()}class="select-none font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-s text-customPink py-3 px-6 rounded-lg bg-gray-900 shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button">Sign up</button>
-          <button class="select-none font-bold  text-center uppercase transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none rounded-lg border border-gray-900 py-3 px-6 align-middle text-s  text-gray-900 "type="button">Log in</button>
+          <button onClick={() => newPage()}class="select-none font-bold  text-center uppercase transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none rounded-lg border border-gray-900 py-3 px-6 align-middle text-s  text-gray-900 "type="button">Log in</button>
         </div>
       </div>   
 
