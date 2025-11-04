@@ -8,6 +8,7 @@ import SignUpPage from './pages/SignUpPage'
 import NotFoundPage from './pages/NotFoundPage'
 import ProfilePage from './pages/ProfilePage'
 import HomePage from './pages/HomePage'
+import LogInPage from './pages/LogInPage'
 
 function App() {
   //This is how you can go from page to page
@@ -23,6 +24,10 @@ function App() {
     {
       path: '/signup',
       element: <SignUpPage />
+    },
+    {
+      path: '/login',
+      element: <LogInPage />
     },
     {
       path:'/profile',
