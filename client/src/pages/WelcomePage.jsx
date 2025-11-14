@@ -6,10 +6,12 @@ export default function WelcomePage() {
   // The hook below returns a function that lets you navigate programmatically in the browser in response to user interactions or effects (redirecting the use after submitting a form). THius makes it easier and more flexible to navigate between different pages in your app.
   const navi = useNavigate()
 
+  // we are using the code below for the Sign up button, so that when the sign up button is pressedd, it will go to the sign up page
   const newPageSignUp = () => {
     navi('/signup');
   }
 
+  // we are using the code below for the log in button, so that when the log in button is pressedd, it will go to the log in page
   const newPageLogIn = () => {
     navi('/login');
   }

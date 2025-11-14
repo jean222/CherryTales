@@ -6,7 +6,7 @@ export default function SignUpPage() {
   const [showHomePage, setShowHomePage] = useState(false);
   const [show, setShow] = useState(false);
 
-  const name = useRef();
+  const name = useRef(); // useRef is like a permament storage box for single value withing a React component that does noe cause the component to show changes on the screen when the value inside it is updated
   const email = useRef();
   const password = useRef();
 

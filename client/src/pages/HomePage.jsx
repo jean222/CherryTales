@@ -11,7 +11,7 @@ export default function HomePage() {
         <h1>HomePage</h1>
         <p>Welcome {localStorage.getItem('name')}</p>
 
-        <button onClick={logOut} class='bg-slate-600'>Log oUT</button>
+        <button onClick={logOut} class='bg-slate-600'>Log Out</button>
     </div>
   )
 }
